@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "978660446459",
+    "firebase_url": "https://hackaton20-91018.firebaseio.com",
+    "project_id": "hackaton20-91018",
+    "storage_bucket": "hackaton20-91018.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978660446459:android:3c1aea79b402b4834aa05e",
+        "android_client_info": {
+          "package_name": "com.nosotras"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978660446459-bonth42j2s4ln8psd5nijm0rbvk79vl5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA280TzJ4hPDvvaTbLFCDqKqMTS692jp2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978660446459-bonth42j2s4ln8psd5nijm0rbvk79vl5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
