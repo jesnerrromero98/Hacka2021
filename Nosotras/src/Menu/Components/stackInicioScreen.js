@@ -4,7 +4,9 @@ import { createStackNavigator } from '@react-navigation/stack';
 import Inicio from './../../Inicio/Containers/inicioContainer';
 import InicioDetalle from './../../Inicio/Containers/inicioDetalleContainer'
 
-const InicioStack = createStackNavigator();
+const InicioStack = createStackNavigator(
+ 
+);
 
 function InicioStackScreen() {
   return (

@@ -1,4 +1,5 @@
 import React from 'react';
+import llamr from './../../Assets/llamar.png'
 import Slider from './../Containers/sliderContainer'
 
 import {
@@ -41,7 +42,7 @@ const ListadoDeEmergencia = (props) => {
                     <View style = {styles.fondo}>
                         <Slider/>      
                         <Text style={styles.titulo}>
-                            Tipos de violencia
+                           Menú opciones 
                         </Text>
                     </View>
                 }
@@ -50,7 +51,7 @@ const ListadoDeEmergencia = (props) => {
                 renderItem = {
                     ({item}) => <Element item = {item}  onPress = {() => { navegarInicioDetalle(item); }}/>
                 }
-                //ItemSeparatorComponent = {() => <SeparatorList/>}
+                //ItemSeparatorComponent = {() => <SeparatorList/>}  === //<Image source = {llamr} style = {styles.image}/>/*
             />
 
         </View>
@@ -82,10 +83,7 @@ const Element = (props) =>{
                             </Text>
                         </View>
                     </View>
-                    <Image
-                        source = {require('./../../Assets/next.png')}
-                        style = {styles.image}
-                    />
+
                     <View style={styles.div}/>
                 </View> 
             </TouchableOpacity> 

@@ -18,7 +18,9 @@ const InicioDetalle = (props) =>{
                 <Image
                     source = {{uri: data.imagen}} 
                     style = {styles.image}
+                    
                 />
+
 
                 <View style = {styles.textoContenedor}>
                     <View style = {styles.tituloCont}>
@@ -33,11 +35,11 @@ const InicioDetalle = (props) =>{
                         </Text>
 
                         <Text style = {styles.textt}>
-                            {data.descripcion}
+                            {data.informacion}
                         </Text>
 
                         <Text Text style = {styles.sub2}>
-                            Ejemplos
+                            {data.sub21}
                         </Text>
                     </View>
 
@@ -67,10 +69,29 @@ const InicioDetalle = (props) =>{
                             {data.item3}
                         </Text>
                     </View>
-   
+
                     <View style={styles.deviders}/>
+                    <View style={styles.line}/>
+
+                    <View style = {styles.len}>
+                        <Text style = {styles.textt1}>
+                            {data.item4}
+                        </Text>
+                    </View>
+                    <View style={styles.deviders}/>
+
                 </View>
-                
+               
+                <Image
+                    source = {{uri: data.imagenes}} 
+                    style = {styles.imagen}
+                />
+                <View style = {styles.len}>
+                        <Text style = {styles.textt1}>
+                            {data.item5}
+                        </Text>
+                    </View>
+                    <View style={styles.deviders}/>
             </View>
         </ScrollView>
     )
@@ -82,10 +103,18 @@ const styles = StyleSheet.create({
         flex: 1,
     },
     image:{
-        height: 200,
+       
+        height: 150,
         width: '100%',
-        borderLeftWidth: 250
+        borderLeftWidth: 150
     },
+    imagen:{
+        height: 250,
+        width: '100%',
+       
+
+    },
+    
     titulo:{
         fontSize: 20,
         fontWeight: 'bold',
@@ -101,6 +130,7 @@ const styles = StyleSheet.create({
         fontSize: 16,
         fontWeight: 'bold',
         color: 'yellow',
+        
     },
 
     sub2:{
@@ -114,8 +144,16 @@ const styles = StyleSheet.create({
         fontSize: 15,
         fontWeight: 'bold',
         color: '#FFFF',
+        textAlign:'justify', 
     },
 
+    textt1:{
+        fontSize:  18,
+        fontWeight: 'bold',
+        color: '#ff0000',
+        marginTop: -5,
+        marginLeft:88
+    },
     tituloCont:{
         alignItems: 'center',
         marginTop: 5

@@ -12,7 +12,7 @@ const Encabezado = ()=>{
         <View style = {styles.fondo}>
             <View style = {styles.container}>
                 <Text style = {styles.texto}>
-                    Preguntas Frecuentes
+                   Ajuste
                 </Text>
             </View>
 
