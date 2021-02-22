@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Navegacion from './src/Menu/Components/navegacionTabs'
+import Navegacion from './src/Menu/Components/navegacionTabs';
 
 const App = ()=>{
   return(
